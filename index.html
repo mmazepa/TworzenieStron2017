@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Projekt</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="resources/stylesheets/mainStyle.css">
+    <script src="resources/scripts/script.js"></script>
+</head>
+<body onload="return loadText();">
+    <header>
+        <img id="logo" src="resources/images/logo.gif" alt="logo" />
+        Daily news from all around the world
+    </header>
+    <main>
+        <div class="sidebar">
+            <h3>Menu:</h3>
+            <button onclick="return window.location.assign('index.html');">
+                <img src="resources/images/icons/home.png" alt="home" />
+                Home
+            </button>
+            <button onclick="return readTextFile('subpages/news.html');">
+                <img src="resources/images/icons/news.png" alt="news" />
+                News
+            </button>
+            <button onclick="return readTextFile('subpages/info.html');">
+                <img src="resources/images/icons/info.png" alt="info" />
+                Info
+            </button>
+            <button onclick="return readTextFile('subpages/contact.html');">
+                <img src="resources/images/icons/contact.png" alt="contact" />
+                Contact
+            </button>
+            <button onclick="return readTextFile('subpages/download.html');">
+                <img src="resources/images/icons/download.png" alt="download" />
+                Download
+            </button>
+            <img id="mario" src="resources/images/mario.gif" alt="mario" />
+        </div>
+        <div id="content" class="content">
+            <article>
+                <h2>Welcome!</h2>
+                <div class="article">
+                    Hello on our official web page! Check out the latest news using
+                    the navigation menu buttons. We will be glad to see you everyday!
+                </div>
+                <h2>
+                    NEWS OF THE DAY!<br/>
+                    Curabitur at arcu accumsan...
+                </h2>
+                <img src="resources/images/nature2.jpg" alt="nature2" />
+                <div class="article">
+                    Curabitur at arcu accumsan, ornare urna nec, finibus
+                    nisi. Aenean mattis sit amet ligula suscipit venenatis.
+                    Orci varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Curabitur nulla erat,
+                    ornare vel ligula nec, gravida ultricies augue. Donec
+                    porta nunc vitae dui tempus tincidunt. Proin volutpat
+                    cursus condimentum. Integer fermentum lacus eu aliquet
+                    tristique. Nunc tincidunt in arcu a dictum. Pellentesque
+                    quis commodo tellus. Donec id est risus. Nullam sagittis
+                    iaculis ipsum, vel egestas justo maximus vel.
+                    Curabitur at arcu accumsan, ornare urna nec, finibus
+                    nisi. Aenean mattis sit amet ligula suscipit venenatis.
+                    Orci varius natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Curabitur nulla erat,
+                    ornare vel ligula nec, gravida ultricies augue. Donec
+                    porta nunc vitae dui tempus tincidunt. Proin volutpat
+                    cursus condimentum. Integer fermentum lacus eu aliquet
+                    tristique. Nunc tincidunt in arcu a dictum. Pellentesque
+                    quis commodo tellus. Donec id est risus. Nullam sagittis
+                    iaculis ipsum, vel egestas justo maximus vel.
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        Don't forget to visit us tommorow!
+    </footer>
+</body>
+</html>
